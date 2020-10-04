@@ -1,0 +1,131 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  background-color: #b7c5e6;
+}
+body, ul{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2{
+  font-family: 'Playfair Display', serif;
+}
+
+img{
+  /* limiting image size*/
+  max-width:100%;
+}
+nav {
+  background-color: #ced9f1
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 10px; /*0 top/bottom; 10 left/right*/
+  padding:0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+
+}
+
+li.empty {
+  width: 60px;
+  border-top: 1px solid black;
+  top: -5px;
+  position: relative;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+header{
+  top: 100px;
+  position: relative;
+  margin-bottom: 160px;
+    margin-left: 180px;
+}
+
+h1{
+  font-size: 25px;
+}
+h1, h2 {
+  font-weight: normal;
+}
+h2{
+  font-size: 20px;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+
+}
+
+.button{
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+border-radius: 20px;
+transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover{
+  background: black;
+  color: white;
+}
+
+.intro-img{
+  box-shadow: 1px 2px 30 px rgba(0, 0, 0, 0.2);
+margin-top: 10px;
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Inknut Antiqua', serif;
+margin-bottom: 60px;
+}
+
+.project{
+  margin: 50px 0;
+  padding: 30px;
+}
+
+.white{
+  background-color: #ced9f1;
+}
+
+.project .button {
+  margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 45px;
+}
+footer h2 {
+  font-size: 40px;
+  font-family: 'Inknut Antiqua', serif;
+  margin-bottom: 50px;
+}
